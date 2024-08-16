@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ConvertToScreen">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="198dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/everidoorlogo2"
+            tools:srcCompat="@drawable/everidoorlogo2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/ttinterfacesregular"
+            android:padding="10dp"
+            android:text="Enter Activation Code"
+            android:textColor="#FDFDFD"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="&#x2731;"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp" />
+
+            <EditText
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="&#x2731;"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="@string/x2731"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp" />
+
+            <EditText
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="&#x2731;"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp" />
+
+            <EditText
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="&#x2731;"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp" />
+
+            <EditText
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:fontFamily="@font/ttinterfacesregular"
+                android:hint="&#x2731;"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="13.17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/ttinterfacesregular"
+            android:text="You will automatically be taken to next screen on activation"
+            android:textColor="#FBFBFB"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wowimage" />
+
+</LinearLayout>
